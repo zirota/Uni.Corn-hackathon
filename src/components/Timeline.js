@@ -14,28 +14,21 @@ class Lifeline extends Component {
     dateText="11/2010 – Present"
     style={{ color: '#e86971' }}
   >
-    <h3>Title, Company</h3>
+    <h3>ARMY</h3>
     <h4>Subtitle</h4>
     <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+      Investment:
+      1. Exchange-traded Fund (ETF). Examples are SPDR S&P 500 & SPDR Strait Times Index. Low starting point, low risk. Very good start to investment.
+         To learn more:
+         Basic: https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part1
+         Advanced: https://www.dbs.com.sg/personal/articles/saving-investing/beginners-guide-to-etfs-part2
     </p>
     <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
-    </p>
-    <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+      Insurance:
+      1. Chubbs-Personal Liability Insurance
+         To learn more: https://www.chubb.com/sg-en/personal/personal-liability-insurance.aspx
+      2. Chubbs-Personal Accident Insurance
+         To learn more: https://www.chubb.com/sg-en/personal/personal-accident-insurance.aspx
     </p>
   </TimelineItem>
   <TimelineItem
@@ -49,14 +42,11 @@ class Lifeline extends Component {
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
-    <h3 style={{ color: '#61b8ff' }}>Title, Company</h3>
+    <h3 style={{ color: '#61b8ff' }}>EDUCATION</h3>
     <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
     <p>
-      Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
-      exercitation. Veniam velit adipisicing anim excepteur nostrud magna
-      nostrud aliqua dolor. Sunt aute est duis ut nulla officia irure
-      reprehenderit laborum fugiat dolore in elit. Adipisicing do qui duis Lorem
-      est.
+      Investment: 
+      1. If you haven't done it yet, why wait?
     </p>
     <p>
       Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
