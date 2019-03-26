@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import "./Home.css";
 import axios from 'axios';
+import Piechart from './Piechart';
 
 export default class Home extends Component {
   constructor(props) {
@@ -76,6 +77,7 @@ export default class Home extends Component {
             <h3>Your Expenditure</h3>
             <p>Expenditure for 2019</p>
             <p>Check out more about your expenditure here!</p>
+            < Piechart/>
             <Link to="/expenditure">
               <Button className="primary">Expenditure</Button>
             </Link>
