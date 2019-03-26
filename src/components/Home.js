@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
+import {
+  Jumbotron,
+  Container,
+  Row,
+  Col,
+  Image,
+  Button,
+  Grid
+} from "react-bootstrap";
 
 export default class Home extends Component {
   render() {
@@ -24,10 +32,12 @@ export default class Home extends Component {
             <p> Your profile</p>
           </Col>
           <Col xs={12} sm={8} className="person-wrapper">
-            <h3>Your spendings</h3>
-            <p>Spendings for 2019</p>
-            <p>Check out more about your spendings here!</p>
-            <Button className="primary">Expenditure</Button>
+            <h3>Your Expenditure</h3>
+            <p>Expenditure for 2019</p>
+            <p>Check out more about your expenditure here!</p>
+            <Link to="/expenditure">
+              <Button className="primary">Expenditure</Button>
+            </Link>
           </Col>
         </Row>
       </Container>
