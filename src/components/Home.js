@@ -9,11 +9,8 @@ import {
   Button,
   Grid
 } from "react-bootstrap";
-<<<<<<< HEAD
 import "./Home.css";
-=======
 import axios from 'axios';
->>>>>>> 7755f5472617d4d692141892443f3c22a89ce1cc
 
 export default class Home extends Component {
   constructor(props) {
@@ -27,6 +24,10 @@ export default class Home extends Component {
         }
     }).then(res => {this.setState({json: res})});
   }
+
+  firstName = () => {
+    return this.state == null ? "" : this.state.json.data.firstName;
+  };
 
   fullName = () => {
     return this.state == null ? "" : this.state.json.data.lastName + " " + this.state.json.data.firstName;
@@ -55,14 +56,8 @@ export default class Home extends Component {
       <Container>
         <Jumbotron className="welcomemessage">
           <h2>DBS iBanking</h2>
-<<<<<<< HEAD
-          <p>
-            Welcome <b>John</b>! What may I do for you today?
-          </p>
-=======
-          <p>Welcome back! What may I do for you today?</p>
+          <p>Welcome back { this.firstName() }! What may I do for you today?</p>
           <p> Last Login: { this.lastLogin() } </p>
->>>>>>> 7755f5472617d4d692141892443f3c22a89ce1cc
           <Link to="/about">
             <Button className="primary">About</Button>
           </Link>

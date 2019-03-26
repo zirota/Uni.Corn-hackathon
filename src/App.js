@@ -3,11 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Expenditure from "./components/Expenditure";
-<<<<<<< HEAD
 import Piechart from "./components/Piechart";
-// import Savings from "./components/Savings";
-=======
->>>>>>> 7755f5472617d4d692141892443f3c22a89ce1cc
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from "axios";
 
