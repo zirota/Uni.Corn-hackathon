@@ -71,7 +71,7 @@ export default class Home extends Component {
               className="profile-pic"
             />
             <h3> { this.fullName() }</h3>
-            <Link to="/timeline"><p> {this.stageOfLife()} </p></Link>
+            <Link to="/timeline"><p> Stage of Life : {this.stageOfLife()} </p></Link>
           </Col>
           <Col xs={12} sm={8} className="person-wrapper">
             <h3>Your Expenditure</h3>
