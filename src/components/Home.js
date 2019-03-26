@@ -27,7 +27,7 @@ export default class Home extends Component {
             <h3>Your spendings</h3>
             <p>Spendings for 2019</p>
             <p>Check out more about your spendings here!</p>
-            <Button className="primary">Your spendings</Button>
+            <Button className="primary">Expenditure</Button>
           </Col>
         </Row>
       </Container>
