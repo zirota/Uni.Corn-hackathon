@@ -9,14 +9,17 @@ import {
   Button,
   Grid
 } from "react-bootstrap";
+import "./Home.css";
 
 export default class Home extends Component {
   render() {
     return (
       <Container>
-        <Jumbotron>
+        <Jumbotron className="welcomemessage">
           <h2>DBS iBanking</h2>
-          <p>Welcome back! What may I do for you today?</p>
+          <p>
+            Welcome <b>John</b>! What may I do for you today?
+          </p>
           <Link to="/about">
             <Button className="primary">About</Button>
           </Link>

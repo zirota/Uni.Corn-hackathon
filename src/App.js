@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Expenditure from "./components/Expenditure";
+import Piechart from "./components/Piechart";
 // import Savings from "./components/Savings";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from "axios";
@@ -34,7 +35,8 @@ class App extends Component {
         <div className="App">
           <NavBar />
           <Route exact path="/" component={Home} />
-          <Route exact path="/expenditure" component={Expenditure} />
+          <Route path="/expenditure" component={Expenditure} />
+          <Route path="/piechart" component={Piechart} />
         </div>
       </Router>
     );
