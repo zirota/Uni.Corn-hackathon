@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import { Bar, Line, Pie, Scatter, Area } from "react-chartjs-2";
+import axios from 'axios';
 
 class Chart extends Component {
   constructor(props) {
     super(props);
+    let url =
+      "http://api-gateway-dbs-techtrek.ap-southeast-1.elasticbeanstalk.com/customers/limzeyang";
 
     this.state = {
       data: {
