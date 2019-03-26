@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Expenditure from "./components/Expenditure";
 import Piechart from "./components/Piechart";
+import Lifeline from "./components/Timeline"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from "axios";
 
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/expenditure" component={Expenditure} />
           <Route path="/piechart" component={Piechart} />
+          <Route path="/timeline" component={Lifeline} />
         </div>
       </Router>
     );
